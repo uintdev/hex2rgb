@@ -44,7 +44,6 @@ char** segregate(char* data) {
 int* rgbify(char* data) {
     int loopomax = 3;
     int loopo = 0;
-    char* currentchar = "";
     char** hex = segregate(data);
     while (loopo < loopomax) {
         if (segby == 1) {
